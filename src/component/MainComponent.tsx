@@ -9,6 +9,7 @@ import newjeans from '../img/newjeans.png';
 import heeyoung from '../img/heeyoung.png';
 import the_shilla from '../img/the_shilla.png';
 import chanel from '../img/chanel.png';
+
 const MainComponent = () => {
     const [isOpen, setIsOpen]: any = useState(null);
     const handleShowPopup = (openNumber: any) => () => {
@@ -132,6 +133,29 @@ const MainComponent = () => {
                             </div>
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
+                                    구현 기능 :
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 로그인, 로그아웃, 회원가입
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 구독 상품 결제, 업그레이드, 다운그레이드
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 구독 및 정기 결제 취소 및 재시작
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 구독 상품 및 다음 달 구독 상품 조회
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 이용 내역 조회
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 찜기능, 찜한 내역 조회
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
                                     시현 영상 :
                                     <a target="_blink"
                                        href="https://youtu.be/pCAG_vlBPzI"> https://youtu.be/pCAG_vlBPzI</a>
@@ -223,7 +247,7 @@ const MainComponent = () => {
                                 </p>
                                 <p className={'popup_content_text'}>
                                     Github : <a target="_blink"
-                                                          href="https://github.com/helloyoogs/shilla_all"> https://github.com/helloyoogs/shilla_all</a>
+                                                href="https://github.com/helloyoogs/shilla_all"> https://github.com/helloyoogs/shilla_all</a>
                                 </p>
                             </div>
                             <div className={'popup_content_img'}>
