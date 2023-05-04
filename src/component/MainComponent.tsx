@@ -9,6 +9,11 @@ import newjeans from '../img/newjeans.png';
 import heeyoung from '../img/heeyoung.png';
 import the_shilla from '../img/the_shilla.png';
 import chanel from '../img/chanel.png';
+import heeyoung_profile_img from '../img/heeyoung_profile_img.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
+
 
 const MainComponent = () => {
     const [isOpen, setIsOpen]: any = useState(null);
@@ -49,11 +54,38 @@ const MainComponent = () => {
                         <p>INTRO</p>
                     </div>
                     <div className={'popup_content_wrap'}>
+                        {/* 육희영  사용하는 언어 */}
                         <div className={'popup_content_box'}>
-                            <p className={'popup_content_title'}></p>
-                            <p className={'popup_content_text'}></p>
+                            <div className={'popup_content_title_box'}>
+                                <p className={'popup_content_title'}>
+                                    [ Skills and Languages ]
+                                </p></div>
+                            <div className={'popup_content_text_box'}>
+                                <div className={'Language_box'}>
+                                    {/*<FontAwesomeIcon icon="fa-regular fa-coffee" />*/}
+                                    <p className={'Language_title'}>Java</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 육희영 소개 */}
+                        <div className={'popup_content_box'}>
+                            <div className={'popup_content_title_box'}>
+                                <p className={'popup_content_title'}>
+                                    [ 육희영 소개 ]
+                                </p></div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    - 프론트엔드는 그동안 퍼블리싱과 프론트엔드 경험으로 다져져 자신있습니다.
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 백엔드는 업무경험은 없으나 여러 프로젝트를 제작해왔기에 잘해낼 자신이 있습니다.
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 프론트엔드를 더 잘하지만 백엔드 개발자로 발돋움하고 싶습니다.
+                                </p>
+                            </div>
                             <div className={'popup_content_img'}>
-
+                                <img src={heeyoung_profile_img} alt={'heeyoung_profile_img'}/>
                             </div>
                         </div>
                     </div>

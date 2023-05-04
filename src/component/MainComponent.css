@@ -166,6 +166,11 @@
 .main_component .popup_content_img img{
     height: 250px;
 }
+.main_component .popup_content_img img[alt="heeyoung_profile_img"]{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
 @media screen  and (max-width: 1400px) and (min-width: 769px) {
     .main_component .folder_popup {
         width: calc(100% - 104px);
