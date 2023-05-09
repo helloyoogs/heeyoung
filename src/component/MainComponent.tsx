@@ -159,7 +159,7 @@ const MainComponent = () => {
                                 <p className={'popup_content_text'}>
                                     사이트 :
                                     <a target="_blink"
-                                       href="https://helloyoogs.github.io/newjeans/#/"> https://helloyoogs.github.io/newjeans/#/</a>
+                                       href="https://helloyoogs.github.io/heeyoung/"> https://helloyoogs.github.io/heeyoung/</a>
                                 </p>
                                 <p className={'popup_content_text'}>
                                     Github : <a target="_blink"
