@@ -7,7 +7,7 @@ import MainComponent from "./component/MainComponent";
 
 const App = ()=> {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Routes>
           <Route path='/' element={<MainComponent />} />
