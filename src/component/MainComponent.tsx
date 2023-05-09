@@ -24,8 +24,11 @@ const MainComponent = () => {
     }
     return (
         <div className="main_component">
-            <video muted autoPlay loop className={'bg_video'}>
+            <video muted autoPlay loop className={'bg_video pc'}>
                 <source src={process.env.PUBLIC_URL+"/video/nj_bg2023_24fps.mp4"} type="video/mp4" />
+            </video>
+            <video muted autoPlay loop className={'bg_video mobile'}>
+                <source src={process.env.PUBLIC_URL+"/video/nj_bg2023_24fps_mobile.mp4"} type="video/mp4" />
             </video>
             <div className={'main_wrap_box'}>
                 <div className={'site_title_box'}>

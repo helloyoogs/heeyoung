@@ -197,7 +197,9 @@
 .main_component .Language_box p {
     font-size: .85rem;
 }
-
+.main_component .mobile{
+    display: none;
+}
 @media screen  and (max-width: 1400px) and (min-width: 769px) {
     .main_component .folder_popup {
         width: calc(100% - 104px);
@@ -207,6 +209,12 @@
 }
 
 @media screen  and (max-width: 768px) {
+    .main_component .mobile{
+        display: block;
+    }
+    .main_component .pc{
+        display: none;
+    }
     .main_component .popup_content_wrap {
         height: 100%;
     }
