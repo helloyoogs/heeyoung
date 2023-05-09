@@ -1,7 +1,6 @@
 /*eslint-disable*/
 import React, {useRef, useState} from 'react';
 import './MainComponent.css';
-import popupClose from '../img/btn-folder-close.png';
 import velog from '../img/velog_logo_icon.png';
 import github from '../img/github_icon_white.png';
 import tving from '../img/tving.png';
@@ -10,9 +9,12 @@ import heeyoung from '../img/heeyoung.png';
 import the_shilla from '../img/the_shilla.png';
 import chanel from '../img/chanel.png';
 import heeyoung_profile_img from '../img/heeyoung_profile_img.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faSquareJs} from "@fortawesome/free-brands-svg-icons";
+import {faJava} from "@fortawesome/free-brands-svg-icons";
+import {faReact} from "@fortawesome/free-brands-svg-icons";
+import {faVuejs} from "@fortawesome/free-brands-svg-icons";
+import {faGitAlt} from "@fortawesome/free-brands-svg-icons";
 
 
 const MainComponent = () => {
@@ -28,11 +30,12 @@ const MainComponent = () => {
             <div className={'main_wrap_box'}>
                 <div className={'site_title_box'}>
                     <p className={'site_title'}>HEE YOUNG</p>
-                    <a href={"https://velog.io/@helloyoogs/series/%ED%9A%8C%EA%B3%A0%EB%A1%9D"} target={"_blank"}><img
+                    <a href={"https://github.com/helloyoogs?tab=repositories"} target={"_blank"}><img
                         src={github}
                         alt={"github_icon"}/></a>
-                    <a href={"https://github.com/helloyoogs?tab=repositories"} target={"_blank"}> <img src={velog}
-                                                                                                       alt={"velog_icon"}/></a>
+                    <a href={"https://velog.io/@helloyoogs/series/%ED%9A%8C%EA%B3%A0%EB%A1%9D"} target={"_blank"}> <img
+                        src={velog}
+                        alt={"velog_icon"}/></a>
                 </div>
                 <div className={'folder_wrap'}>
                     <div className={'folder'} onClick={handleShowPopup(1)}>
@@ -48,6 +51,7 @@ const MainComponent = () => {
                         <p>CAREER</p>  {/* 경력 */}
                     </div>
                 </div>
+                {/* INTRO */}
                 <div className={'folder_popup'} style={{display: isOpen === 1 ? "block" : "none"}}>
                     <div className={'popup_header'}>
                         <div className={'popup_close'} role={'button'} onClick={handleShowPopup(null)}></div>
@@ -61,9 +65,45 @@ const MainComponent = () => {
                                     [ Skills and Languages ]
                                 </p></div>
                             <div className={'popup_content_text_box'}>
-                                <div className={'Language_box'}>
-                                    {/*<FontAwesomeIcon icon="fa-regular fa-coffee" />*/}
-                                    <p className={'Language_title'}>Java</p>
+                                <div className={'Language_wrap_box'}>
+                                    <div className={'Language_box'}>
+                                        <FontAwesomeIcon icon={faJava}/>
+                                        <p className={'Language_title'}>Java</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <p className={'Language_title'}>Redis</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <p className={'Language_title'}>Spring</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <p className={'Language_title'}>Oracle</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <p className={'Language_title'}>Mysql</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <p className={'Language_title'}>Mariadb</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <FontAwesomeIcon icon={faSquareJs}/>
+                                        <p className={'Language_title'}>Javascript</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <FontAwesomeIcon icon={faReact}/>
+                                        <p className={'Language_title'}>React</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <FontAwesomeIcon icon={faVuejs}/>
+                                        <p className={'Language_title'}>Vue</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <p className={'Language_title'}>Typescript</p>
+                                    </div>
+                                    <div className={'Language_box'}>
+                                        <FontAwesomeIcon icon={faGitAlt}/>
+                                        <p className={'Language_title'}>Git</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -90,6 +130,7 @@ const MainComponent = () => {
                         </div>
                     </div>
                 </div>
+                {/* PROJECT */}
                 <div className={'folder_popup'} style={{display: isOpen === 2 ? "block" : "none"}}>
                     <div className={'popup_header'}>
                         <div className={'popup_close'} role={'button'} onClick={handleShowPopup(null)}></div>
@@ -104,10 +145,9 @@ const MainComponent = () => {
                                 </p>
                                 <p className={'popup_content_title'}>
                                     육희영 소개 페이지
-                                </p></div>
-                            <div className={'popup_content_text_box'}>
-                                <p className={'popup_content_text'}>
-                                    제작기간 : 2023.05.01 ~ 2023.05.10
+                                </p>
+                                <p className={'popup_content_title'}>
+                                    2023.05.01 ~ 2023.05.10
                                 </p>
                             </div>
                             <div className={'popup_content_text_box'}>
@@ -138,15 +178,13 @@ const MainComponent = () => {
                                 </p>
                                 <p className={'popup_content_title'}>
                                     구독 서비스 플랫폼
+                                </p>
+                                <p className={'popup_content_title'}>
+                                    2023.04.01 ~ 2023.05.01
                                 </p></div>
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
                                     넷플릭스,티빙같은 구독 플랫폼 웹 사이트 제작
-                                </p>
-                            </div>
-                            <div className={'popup_content_text_box'}>
-                                <p className={'popup_content_text'}>
-                                    제작기간 : 2023.04.01 ~ 2023.05.01
                                 </p>
                             </div>
                             <div className={'popup_content_text_box'}>
@@ -216,12 +254,10 @@ const MainComponent = () => {
                                 </p>
                                 <p className={'popup_content_title'}>
                                     가수 뉴진스 소개 페이지
-                                </p></div>
-                            <div className={'popup_content_text_box'}>
-                                <p className={'popup_content_text'}>
-                                    제작기간 : 2022.07.01 ~ 2022.08.01
                                 </p>
-                            </div>
+                                <p className={'popup_content_title'}>
+                                    2022.07.01 ~ 2022.08.01
+                                </p></div>
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
                                     기술스택 : Vue
@@ -250,15 +286,13 @@ const MainComponent = () => {
                                 </p>
                                 <p className={'popup_content_title'}>
                                     호텔 예약 사이트
+                                </p>
+                                <p className={'popup_content_title'}>
+                                    2022.04.05 ~ 2022.04.20
                                 </p></div>
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
                                     신라 호텔, 아고다같은 호텔 예약 웹 사이트 제작
-                                </p>
-                            </div>
-                            <div className={'popup_content_text_box'}>
-                                <p className={'popup_content_text'}>
-                                    제작기간 : 2022.04.05 ~ 2022.04.20
                                 </p>
                             </div>
                             <div className={'popup_content_text_box'}>
@@ -294,15 +328,13 @@ const MainComponent = () => {
                                 </p>
                                 <p className={'popup_content_title'}>
                                     샤넬 쇼핑몰 사이트
+                                </p>
+                                <p className={'popup_content_title'}>
+                                    2022.03.20 ~ 2022.04.05
                                 </p></div>
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
                                     샤넬, 버버리같은 쇼핑몰 사이트 웹 사이트 제작
-                                </p>
-                            </div>
-                            <div className={'popup_content_text_box'}>
-                                <p className={'popup_content_text'}>
-                                    제작기간 : 2022.03.20 ~ 2022.04.05
                                 </p>
                             </div>
                             <div className={'popup_content_text_box'}>
@@ -332,15 +364,138 @@ const MainComponent = () => {
                         </div>
                     </div>
                 </div>
+                {/* CAREER */}
                 <div className={'folder_popup'} style={{display: isOpen === 3 ? "block" : "none"}}>
                     <div className={'popup_header'}>
                         <div className={'popup_close'} role={'button'} onClick={handleShowPopup(null)}></div>
                         <p>CAREER</p>
                     </div>
+                    <div className={'popup_content_wrap'}>
+                        {/* 오큐브 */}
+                        <div className={'popup_content_box'}>
+                            <div className={'popup_content_title_box'}>
+                                <p className={'popup_content_title'}>
+                                    [ 오큐브㈜ (AI개발팀 사원) ]
+                                </p>
+                                <p className={'popup_content_title'}>
+                                    2022.09 - 재직중
+                                </p></div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    1. LG LATS_HAVC (2022.10~2022.11)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    2. LG thinkQ App Petcare (2022.12~2023.03)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : React, Typescript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - Petcare 웹앱 프론트 엔드 구축
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    3. LG energy lab 사이트 유지보수 퍼블리싱 (2023.04~2023.04)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                            </div>
+                        </div>
+                        {/* 나스간호학원 */}
+                        <div className={'popup_content_box'}>
+                            <div className={'popup_content_title_box'}>
+                                <p className={'popup_content_title'}>
+                                    [ 나스(NAS)간호학원 (퍼블리셔) ]
+                                </p>
+                                <p className={'popup_content_title'}>
+                                    2021.09 ~ 2022.01
+                                </p></div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    1. 나스간호학원 (2021.11~2021.11)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 사이트 : <a target="_blink"
+                                               href="https://nasnurse.com/"> https://nasnurse.com/</a>
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    2. 나스평생교육원 (2021.12~2022.12)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 사이트 : <a target="_blink"
+                                               href="http://www.naslle.com/"> http://www.naslle.com/</a>
+                                </p>
+                            </div>
+                        </div>
+                        {/* ㈜조이컴퍼니 */}
+                        <div className={'popup_content_box'}>
+                            <div className={'popup_content_title_box'}>
+                                <p className={'popup_content_title'}>
+                                    [ ㈜조이컴퍼니 - 퍼블리셔 ]
+                                </p>
+                                <p className={'popup_content_title'}>
+                                    2021.06 ~ 2021.08
+                                </p></div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    1. 다소곳 농수산물 사이트 (021.06~2021.07)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    2. 브레이브마켓 (2021.07~2021.08)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 사이트 : <a target="_blink"
+                                                                      href="https://bravemarket.co.kr/"> https://bravemarket.co.kr/</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    );
+    )
+        ;
 }
 
 export default MainComponent;

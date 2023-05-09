@@ -138,39 +138,66 @@
     overflow: auto;
 
 }
+
 .main_component .popup_content_box {
-   border: 1px solid #C0ED70;
+    border: 1px solid #C0ED70;
     padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
 }
+
 .main_component .popup_content_title_box {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
 .main_component .popup_content_text_box {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
 .main_component .popup_content_text {
     font-size: 0.875rem;
 }
-.main_component .popup_content_wrap a{
+
+.main_component .popup_content_wrap a {
     font-size: 0.875rem;
     color: #008C00;
 
 }
-.main_component .popup_content_img img{
+
+.main_component .popup_content_img img {
     height: 250px;
 }
-.main_component .popup_content_img img[alt="heeyoung_profile_img"]{
+
+.main_component .popup_content_img img[alt="heeyoung_profile_img"] {
     width: 200px;
     height: auto;
     border-radius: 50%;
 }
+
+.main_component .Language_wrap_box {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.main_component .Language_box {
+    display: flex;
+    gap: .1rem;
+    padding: .2rem;
+    border-radius: 5px;
+    background-color: hsla(120, 25%, 65%, 0.4);
+
+}
+
+.main_component .Language_box p {
+    font-size: .85rem;
+}
+
 @media screen  and (max-width: 1400px) and (min-width: 769px) {
     .main_component .folder_popup {
         width: calc(100% - 104px);
@@ -180,6 +207,10 @@
 }
 
 @media screen  and (max-width: 768px) {
+    .main_component .popup_content_wrap {
+        height: auto;
+    }
+
     .main_component .main_wrap_box {
         margin: 0;
         height: 100%;
@@ -242,7 +273,8 @@
         height: 46px;
         left: 0.625rem;
     }
-    .main_component .popup_content_img img{
+
+    .main_component .popup_content_img img {
         width: 100%;
         height: auto;
     }
