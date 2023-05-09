@@ -217,8 +217,8 @@
     }
     .main_component .popup_content_wrap {
         height: 100%;
+        padding: 0;
     }
-
     .main_component .main_wrap_box {
         margin: 0;
         height: 100%;

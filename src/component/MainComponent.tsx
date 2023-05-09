@@ -124,7 +124,7 @@ const MainComponent = () => {
                                     - 백엔드는 업무경험은 없으나 여러 프로젝트를 제작해왔기에 잘해낼 자신이 있습니다.
                                 </p>
                                 <p className={'popup_content_text'}>
-                                    - 프론트엔드를 더 잘하지만 백엔드 개발자로 발돋움하고 싶습니다.
+                                    - 백엔드 개발자로 발돋움하고 싶습니다.
                                 </p>
                             </div>
                             <div className={'popup_content_img'}>
