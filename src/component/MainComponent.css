@@ -208,7 +208,7 @@
 
 @media screen  and (max-width: 768px) {
     .main_component .popup_content_wrap {
-        height: auto;
+        height: 100%;
     }
 
     .main_component .main_wrap_box {

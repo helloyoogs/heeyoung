@@ -147,7 +147,7 @@ const MainComponent = () => {
                                     육희영 소개 페이지
                                 </p>
                                 <p className={'popup_content_title'}>
-                                    2023.05.01 ~ 2023.05.10
+                                    2023.05.01 ~ 2023.05.09
                                 </p>
                             </div>
                             <div className={'popup_content_text_box'}>
