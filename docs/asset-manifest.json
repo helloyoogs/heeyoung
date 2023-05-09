@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.01e2f5c2.css",
-    "main.js": "/static/js/main.01487ed8.js",
-    "static/js/787.531a6ecb.chunk.js": "/static/js/787.531a6ecb.chunk.js",
-    "static/media/AppleSDGothicNeoR.ttf": "/static/media/AppleSDGothicNeoR.d159b4d4ce2ef2592daa.ttf",
-    "static/media/heeyoung.png": "/static/media/heeyoung.7161e023142dc9a96411.png",
-    "static/media/tving.png": "/static/media/tving.d472f5f53bc59ad31084.png",
-    "static/media/the_shilla.png": "/static/media/the_shilla.1804124324ae7f6e8bb1.png",
-    "static/media/chanel.png": "/static/media/chanel.98835d062975366dfbb6.png",
-    "static/media/newjeans.png": "/static/media/newjeans.1c0de5f588ef3d4c2593.png",
-    "static/media/heeyoung_profile_img.jpg": "/static/media/heeyoung_profile_img.949bca9c9c13b698e712.jpg",
-    "static/media/window-header-deco.png": "/static/media/window-header-deco.937c2e0f2c89b34edde5.png",
-    "static/media/velog_logo_icon.png": "/static/media/velog_logo_icon.5383cdf156873cc353d0.png",
-    "static/media/btn_back.png": "/static/media/btn_back.b5f8d65c070b66c6d205.png",
-    "static/media/icon-folder-selected.png": "/static/media/icon-folder-selected.5d673ce881b4da293b41.png",
-    "static/media/icon-folder.png": "/static/media/icon-folder.9b60ae4333b29fb81594.png",
-    "index.html": "/index.html",
-    "main.01e2f5c2.css.map": "/static/css/main.01e2f5c2.css.map",
-    "main.01487ed8.js.map": "/static/js/main.01487ed8.js.map",
-    "787.531a6ecb.chunk.js.map": "/static/js/787.531a6ecb.chunk.js.map"
+    "main.css": "/heeyoung/static/css/main.b1bb656d.css",
+    "main.js": "/heeyoung/static/js/main.b4708908.js",
+    "static/js/787.531a6ecb.chunk.js": "/heeyoung/static/js/787.531a6ecb.chunk.js",
+    "static/media/AppleSDGothicNeoR.ttf": "/heeyoung/static/media/AppleSDGothicNeoR.d159b4d4ce2ef2592daa.ttf",
+    "static/media/heeyoung.png": "/heeyoung/static/media/heeyoung.7161e023142dc9a96411.png",
+    "static/media/tving.png": "/heeyoung/static/media/tving.d472f5f53bc59ad31084.png",
+    "static/media/the_shilla.png": "/heeyoung/static/media/the_shilla.1804124324ae7f6e8bb1.png",
+    "static/media/chanel.png": "/heeyoung/static/media/chanel.98835d062975366dfbb6.png",
+    "static/media/newjeans.png": "/heeyoung/static/media/newjeans.1c0de5f588ef3d4c2593.png",
+    "static/media/heeyoung_profile_img.jpg": "/heeyoung/static/media/heeyoung_profile_img.949bca9c9c13b698e712.jpg",
+    "static/media/window-header-deco.png": "/heeyoung/static/media/window-header-deco.937c2e0f2c89b34edde5.png",
+    "static/media/velog_logo_icon.png": "/heeyoung/static/media/velog_logo_icon.5383cdf156873cc353d0.png",
+    "static/media/btn_back.png": "/heeyoung/static/media/btn_back.b5f8d65c070b66c6d205.png",
+    "static/media/icon-folder-selected.png": "/heeyoung/static/media/icon-folder-selected.5d673ce881b4da293b41.png",
+    "static/media/icon-folder.png": "/heeyoung/static/media/icon-folder.9b60ae4333b29fb81594.png",
+    "index.html": "/heeyoung/index.html",
+    "main.b1bb656d.css.map": "/heeyoung/static/css/main.b1bb656d.css.map",
+    "main.b4708908.js.map": "/heeyoung/static/js/main.b4708908.js.map",
+    "787.531a6ecb.chunk.js.map": "/heeyoung/static/js/787.531a6ecb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01e2f5c2.css",
-    "static/js/main.01487ed8.js"
+    "static/css/main.b1bb656d.css",
+    "static/js/main.b4708908.js"
   ]
 }

@@ -25,7 +25,7 @@ const MainComponent = () => {
     return (
         <div className="main_component">
             <video muted autoPlay loop className={'bg_video'}>
-                <source src="/video/nj_bg2023_24fps.mp4" type="video/mp4"/>
+                <source src={process.env.PUBLIC_URL+"/video/nj_bg2023_24fps.mp4"} type="video/mp4" />
             </video>
             <div className={'main_wrap_box'}>
                 <div className={'site_title_box'}>
