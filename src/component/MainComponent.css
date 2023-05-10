@@ -131,11 +131,15 @@
 
 .main_component .popup_content_wrap {
     padding: 2rem;
-    height: 446px;
+    max-height: 446px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    overflow: auto;
+    overflow-y: auto;
+
+}
+.main_component .popup_content_wrap ::-webkit-scrollbar{
+  margin-top: 100px;
 
 }
 
@@ -209,6 +213,9 @@
 }
 
 @media screen  and (max-width: 768px) {
+    .popup_content_box:first-of-type{
+        margin-top: 130px;
+    }
     .main_component .mobile{
         display: block;
     }
@@ -217,7 +224,10 @@
     }
     .main_component .popup_content_wrap {
         height: 100%;
-        padding: 0;
+        max-height: none;
+        position: relative;
+        top: -150px;
+
     }
     .main_component .main_wrap_box {
         margin: 0;
@@ -259,6 +269,7 @@
         width: 100%;
         border-radius: inherit;
         background-size: cover;
+        z-index: 100;
     }
 
     .main_component .popup_header::after {

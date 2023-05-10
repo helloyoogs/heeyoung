@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/heeyoung/static/css/main.aea4c6be.css",
+    "main.css": "/heeyoung/static/css/main.fd7c20ba.css",
     "main.js": "/heeyoung/static/js/main.7f064416.js",
     "static/js/787.531a6ecb.chunk.js": "/heeyoung/static/js/787.531a6ecb.chunk.js",
     "static/media/AppleSDGothicNeoR.ttf": "/heeyoung/static/media/AppleSDGothicNeoR.d159b4d4ce2ef2592daa.ttf",
@@ -16,12 +16,12 @@
     "static/media/icon-folder-selected.png": "/heeyoung/static/media/icon-folder-selected.5d673ce881b4da293b41.png",
     "static/media/icon-folder.png": "/heeyoung/static/media/icon-folder.9b60ae4333b29fb81594.png",
     "index.html": "/heeyoung/index.html",
-    "main.aea4c6be.css.map": "/heeyoung/static/css/main.aea4c6be.css.map",
+    "main.fd7c20ba.css.map": "/heeyoung/static/css/main.fd7c20ba.css.map",
     "main.7f064416.js.map": "/heeyoung/static/js/main.7f064416.js.map",
     "787.531a6ecb.chunk.js.map": "/heeyoung/static/js/787.531a6ecb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aea4c6be.css",
+    "static/css/main.fd7c20ba.css",
     "static/js/main.7f064416.js"
   ]
 }
