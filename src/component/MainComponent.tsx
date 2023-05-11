@@ -493,6 +493,37 @@ const MainComponent = () => {
                                 </p>
                             </div>
                         </div>
+                        {/* 학력 */}
+                        <div className={'popup_content_box'}>
+                            <div className={'popup_content_title_box'}>
+                                <p className={'popup_content_title'}>
+                                    [ 학력 ]
+                                </p></div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    코리아IT아카데미 (2021.08 ~ 2022.04)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 백엔드 개발자 양성 과정 수료
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    그린컴퓨터디자인학원 (2020.03 ~ 2020.07)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 웹 퍼블리셔 국비 과정 수료
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    중부대학교  (2012.03 ~ 2017.07)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 패션디자인과 졸업
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
