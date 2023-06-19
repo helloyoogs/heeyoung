@@ -123,9 +123,6 @@ const MainComponent = () => {
                                 <p className={'popup_content_text'}>
                                     - 백엔드는 업무경험은 없으나 여러 프로젝트를 제작해왔기에 잘해낼 자신이 있습니다.
                                 </p>
-                                <p className={'popup_content_text'}>
-                                    - 백엔드 개발자로 발돋움하고 싶습니다.
-                                </p>
                             </div>
                             <div className={'popup_content_img'}>
                                 <img src={heeyoung_profile_img} alt={'heeyoung_profile_img'}/>
@@ -408,6 +405,39 @@ const MainComponent = () => {
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
                                     3. LG energy lab 사이트 유지보수 퍼블리싱 (2023.04~2023.04)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    4. LG LATS LCC WEB 퍼블리싱 (2023.05~2023.06)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : React, HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    5. LG CFD_REQUEST 퍼블리싱 (2023.05~2023.06)
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : React, HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    6. LG LATS_HAVC 유지보수 퍼블리싱 (2023.06~2023.07)
                                 </p>
                                 <p className={'popup_content_text'}>
                                     - 기술스택 : HTML, CSS, Javascript
