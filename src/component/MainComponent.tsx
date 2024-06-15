@@ -104,6 +104,9 @@ const MainComponent = () => {
                                         <p className={'Language_title'}>Typescript</p>
                                     </div>
                                     <div className={'Language_box'}>
+                                        <p className={'Language_title'}>Tailwind</p>
+                                    </div>
+                                    <div className={'Language_box'}>
                                         <FontAwesomeIcon icon={faGitAlt}/>
                                         <p className={'Language_title'}>Git</p>
                                     </div>
@@ -382,13 +385,13 @@ const MainComponent = () => {
                                 </p></div>
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
-                                    1. LG LATS_HAVC (2022.10~2022.11)
+                                    1. LG LATS ThermaV
                                 </p>
                                 <p className={'popup_content_text'}>
                                     - 기술스택 : HTML, CSS, Javascript
                                 </p>
                                 <p className={'popup_content_text'}>
-                                    - 퍼블리싱
+                                    - 퍼블리싱 및 유지보수
                                 </p>
                             </div>
                             <div className={'popup_content_text_box'}>
@@ -399,51 +402,84 @@ const MainComponent = () => {
                                     - 기술스택 : React, Typescript
                                 </p>
                                 <p className={'popup_content_text'}>
-                                    - Petcare 웹앱 프론트 엔드 구축
+                                    - Frontend 개발
                                 </p>
                             </div>
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
-                                    3. LG energy lab 사이트 유지보수 퍼블리싱 (2023.04~2023.04)
+                                    3. LG LATS Energy Lab
                                 </p>
                                 <p className={'popup_content_text'}>
                                     - 기술스택 : HTML, CSS, Javascript
                                 </p>
                                 <p className={'popup_content_text'}>
-                                    - 퍼블리싱
+                                    - 유지보수
                                 </p>
                             </div>
                             <div className={'popup_content_text_box'}>
                                 <p className={'popup_content_text'}>
-                                    4. LG LATS LCC WEB 퍼블리싱 (2023.05~2023.06)
-                                </p>
-                                <p className={'popup_content_text'}>
-                                    - 기술스택 : React, HTML, CSS, Javascript
-                                </p>
-                                <p className={'popup_content_text'}>
-                                    - 퍼블리싱
-                                </p>
-                            </div>
-                            <div className={'popup_content_text_box'}>
-                                <p className={'popup_content_text'}>
-                                    5. LG CFD_REQUEST 퍼블리싱 (2023.05~2023.06)
-                                </p>
-                                <p className={'popup_content_text'}>
-                                    - 기술스택 : React, HTML, CSS, Javascript
-                                </p>
-                                <p className={'popup_content_text'}>
-                                    - 퍼블리싱
-                                </p>
-                            </div>
-                            <div className={'popup_content_text_box'}>
-                                <p className={'popup_content_text'}>
-                                    6. LG LATS_HAVC 유지보수 퍼블리싱 (2023.06~2023.07)
+                                    4. LG LATS LCC WEB
                                 </p>
                                 <p className={'popup_content_text'}>
                                     - 기술스택 : HTML, CSS, Javascript
                                 </p>
                                 <p className={'popup_content_text'}>
-                                    - 퍼블리싱
+                                    - 퍼블리싱 및 유지보수
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    5. LG LATS CFD REQUEST
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : HTML, CSS, Javascript
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 퍼블리싱 및 유지보수
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    6. LG Lats Vent
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : React, Typescript, Tailwind
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - Frontend 개발 및 유지보수
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    7. LG Lats RRC
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : React, Typescript, Tailwind
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - Frontend 개발 및 유지보수
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    8. LG Lats Noise Simulator
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : React, Typescript, Tailwind
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - Frontend 개발 및 유지보수
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    9. LG Lats Load Web
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 기술스택 : React, Typescript, Tailwind
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - Frontend 개발 및 유지보수
                                 </p>
                             </div>
                         </div>
