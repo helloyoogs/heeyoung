@@ -7,6 +7,7 @@ import tving from '../img/tving.png';
 import newjeans from '../img/newjeans.png';
 import heeyoung from '../img/heeyoung.png';
 import the_shilla from '../img/the_shilla.png';
+import jlpt from '../img/jlpt.png';
 import chanel from '../img/chanel.png';
 import heeyoung_profile_img from '../img/heeyoung_profile_img.jpg';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -140,6 +141,59 @@ const MainComponent = () => {
                         <p>PROJECT</p>
                     </div>
                     <div className={'popup_content_wrap'}>
+                        {/* jlpt 문제 은행 */}
+                        <div className={'popup_content_box'}>
+                            <div className={'popup_content_title_box'}>
+                                <p className={'popup_content_title'}>
+                                    [ 토이 프로젝트 ]
+                                </p>
+                                <p className={'popup_content_title'}>
+                                   일본어 능력 시험 문제은행 사이트
+                                </p>
+                                <p className={'popup_content_title'}>
+                                    2024.04.01 ~ 2023.04.20
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    기술스택 :
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - FRONT : React, Typescript, Next.js
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - BACK : mongoDB
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    사이트 :
+                                    <a target="_blink"
+                                       href="https://jlptn1.vercel.app/"> https://jlptn1.vercel.app/</a>
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    Github : <a target="_blink"
+                                                href="https://github.com/helloyoogs/jlptn1"> https://github.com/helloyoogs/jlptn1</a>
+                                </p>
+                            </div>
+                            <div className={'popup_content_text_box'}>
+                                <p className={'popup_content_text'}>
+                                    구현 기능 :
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 구글 로그인, 구글 로그아웃, 구글 회원가입
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 응시하기, 문제 제출 하기, 문제 임시 저장하기, 푼 문제 수정하기
+                                </p>
+                                <p className={'popup_content_text'}>
+                                    - 시험 결과 확인하기, 문제 다시풀기, 틀린 문제 풀기
+                                </p>
+                            </div>
+                            <div className={'popup_content_img'}>
+                                <img src={jlpt} alt={'jlpt'}/>
+                            </div>
+                        </div>
                         {/* 소개사이트 */}
                         <div className={'popup_content_box'}>
                             <div className={'popup_content_title_box'}>
