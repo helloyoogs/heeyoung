@@ -258,9 +258,12 @@
         height: 100%;
     }
 
+    .main_component .site_title_container {
+        padding: 0.625rem;
+    }
+
     .main_component .site_title_box {
         justify-content: flex-end;
-        padding: 0.625rem;
     }
 
     .main_component .folder_wrap {
