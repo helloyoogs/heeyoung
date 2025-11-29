@@ -20,7 +20,7 @@ const CareerComponent = ({ isOpen, setIsOpen }: CareerComponentProps) => {
             {CAREERS.map((c, i) => (
                     <div key={i} className="popup_content_box">
                         <div className="popup_content_title_box">
-                            <p className="popup_content_title">[ {c.company} ]</p>
+                            <p className="popup_content_title">[ {c.company ? t(c.company) : c.company} ]</p>
                             <p className="popup_content_title">{c.period}</p>
                         </div>
 
@@ -28,15 +28,15 @@ const CareerComponent = ({ isOpen, setIsOpen }: CareerComponentProps) => {
                             <div key={idx} className="popup_content_text_box">
                                 <p className="popup_content_text">
                                     {idx + 1}. {p.title}
-                                    {p.period ? ` (${p.period})` : ""}
+                                    {p.period ? ` (${t(p.period)})` : ""}
                                 </p>
                                 <p className="popup_content_text">
-                                    - 기술스택 : {p.tech.join(", ")}
+                                    - {t("tech.stack")} : {p.tech.join(", ")}
                                 </p>
-                                <p className="popup_content_text">- {p.role}</p>
+                                <p className="popup_content_text">- {p.role ? t(p.role) : p.role}</p>
                                 {p.site && (
                                     <p className="popup_content_text">
-                                        - 사이트 :{" "}
+                                        - {t("site")} :{" "}
                                         <a href={p.site} target="_blank" rel="noreferrer">
                                             {p.site}
                                         </a>

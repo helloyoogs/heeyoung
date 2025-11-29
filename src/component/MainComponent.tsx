@@ -5,11 +5,12 @@ import velog from '../img/velog_logo_icon.png';
 import github from '../img/github_icon_white.png';
 import ProjectComponent from './ProjectComponent';
 import CareerComponent from './CareerComponent';
-import i18n from "i18next";
+import { useTranslation } from "react-i18next";
 
 type LangCode = "ko" | "ja";
 
 const MainComponent = () => {
+    const { i18n } = useTranslation();
     const [isOpen, setIsOpen]: any = useState(null);
     const handleShowPopup = (openNumber: any) => () => {
         return setIsOpen(openNumber);

@@ -17,3 +17,23 @@ export interface EducationItem {
     period: string;
     course: string;
 }
+
+// src/constants/type.ts
+
+export interface ToyProject {
+    title: string;
+    period: string;
+    subtitle?: string;
+    techFront?: string;
+    techBack?: string;
+    techEtc?: string;
+    site?: string;
+    github?: string;
+    githubFront?: string
+    githubBack?: string;
+    video?: string;
+    ppt?: string;
+    features?: string[];
+    imageSrc: string;
+    imageAlt: string;
+}
