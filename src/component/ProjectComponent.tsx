@@ -33,7 +33,7 @@ const ProjectComponent = ({ isOpen, setIsOpen }: ProjectComponentProps) => {
                             일본어 능력 시험 문제은행 사이트
                         </p>
                         <p className={'popup_content_title'}>
-                            2024.04.01 ~ 2023.04.20
+                            2024.04.01 ~ 2024.04.20
                         </p>
                     </div>
                     <div className={'popup_content_text_box'}>

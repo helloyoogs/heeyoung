@@ -26,13 +26,15 @@ const MainComponent = () => {
                     <p className={'site_title'}>HEE YOUNG</p>
                     <a href={"https://github.com/helloyoogs?tab=repositories"} target={"_blank"}><img
                         src={github}
-                        alt={"github_icon"} /></a>
+                        alt={"github_icon"}/></a>
                     <a href={"https://velog.io/@helloyoogs/series/%ED%9A%8C%EA%B3%A0%EB%A1%9D"} target={"_blank"}> <img
                         src={velog}
-                        alt={"velog_icon"} /></a>
+                        alt={"velog_icon"}/></a>
+                    <a className={"lang_select"}>KR</a>
+                    <a className={"lang_select"}>JP</a>
                 </div>
                 <div className={'folder_wrap'}>
-                    <div className={'folder'} onClick={handleShowPopup(1)}>
+                <div className={'folder'} onClick={handleShowPopup(1)}>
                         <div className={'folder_img'}></div>
                         <p>INTRO</p> {/* 소개 */}
                     </div>

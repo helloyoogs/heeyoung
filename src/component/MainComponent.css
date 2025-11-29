@@ -36,6 +36,11 @@
     height: 1.25rem;
 }
 
+.main_component .lang_select {
+    color: #ffffff;
+    font-size: 14px;
+}
+
 .main_component .folder_wrap {
     display: flex;
     margin-top: 20px;
