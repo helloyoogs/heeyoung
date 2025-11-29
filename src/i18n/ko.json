@@ -1,4 +1,58 @@
 {
   "hello": "안녕하세요!",
-  "intro": "제 포트폴리오에 오신 것을 환영합니다"
+  "intro": "제 포트폴리오에 오신 것을 환영합니다",
+  "tech.stack": "기술스택",
+  "publishing": "퍼블리싱",
+  "frontend": "프론트엔드 개발",
+  "site": "사이트 ",
+  "toy": "토이 프로젝트",
+  "video": "시연 영상",
+  "ppt": "설명 PPT",
+  "career": {
+    "ocube.company": "오큐브㈜",
+    "ocube.period": "2022.09 - 재직중",
+    "ocube.lats.role": "웹 퍼블리싱 및 프론트엔드 개발·유지보수",
+    "nas.company": "나스(NAS)간호학원",
+    "nas.nurse": "나스간호학원",
+    "nas.education": "나스평생교육원",
+    "joy.company": "㈜조이컴퍼니",
+    "joy.dasogot": "다소곳 농수산물 사이트",
+    "joy.brave": "브레이브마켓"
+  },
+  "education": {
+    "title": "학력 및 교육 수료 과정",
+    "korea": "코리아IT아카데미",
+    "korea.course": "백엔드 개발자 양성 과정 수료",
+    "green": "그린컴퓨터디자인학원",
+    "green.course": "웹 퍼블리셔 국비 과정 수료",
+    "university": "중부대학교",
+    "university.course": "패션디자인과 졸업"
+  },
+  "license": {
+    "title": "자격증",
+    "jlpt": "일본어능력시험(JLPT)2급",
+    "computer": "컴퓨터활용능력2급",
+    "design": "웹디자인기능사",
+    "graphics": "컴퓨터그래픽스운용기능사"
+  },
+  "project": {
+    "jlpt": "일본어 능력 시험 문제은행 사이트",
+    "jlpt.features1": "구글 로그인, 구글 로그아웃, 구글 회원가입",
+    "jlpt.features2": "응시하기, 문제 제출 하기, 문제 임시 저장하기, 푼 문제 수정하기",
+    "jlpt.features3": "시험 결과 확인하기, 문제 다시풀기, 틀린 문제 풀기",
+    "heeyoung": "육희영 소개 페이지",
+    "tving": "구독 서비스 플랫폼",
+    "tving.description": "넷플릭스,티빙같은 구독 플랫폼 웹 사이트 제작",
+    "tving.features1": "로그인, 로그아웃, 회원가입",
+    "tving.features2": "구독 상품 결제, 업그레이드, 다운그레이드",
+    "tving.features3": "구독 및 정기 결제 취소 및 재시작",
+    "tving.features4": "구독 상품 및 다음 달 구독 상품 조회",
+    "tving.features5": "이용 내역 조회",
+    "tving.features6": "찜기능, 찜한 내역 조회",
+    "njs": "가수 뉴진스 소개 페이지",
+    "hotel": "호텔 예약 사이트",
+    "hotel.description": "신라 호텔, 아고다같은 호텔 예약 웹 사이트 제작",
+    "chanel": "샤넬 쇼핑몰 사이트",
+    "chanel.description": "샤넬, 버버리같은 쇼핑몰 사이트 웹 사이트 제작\n\n"
+  }
 }

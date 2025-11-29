@@ -21,6 +21,11 @@
     margin: 20px;
 }
 
+.main_component .site_title_container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .main_component .site_title_box {
     display: flex;
     gap: .5rem;
@@ -43,7 +48,7 @@
 
 .main_component .folder_wrap {
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
     flex-direction: column;
     align-items: flex-end;
     gap: 4rem;
