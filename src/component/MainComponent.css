@@ -269,7 +269,7 @@
     .main_component .folder_wrap {
         align-items: flex-start;
         gap: 1rem;
-        margin: 1rem 0 0 0.625rem;
+        margin: 1.875rem 0 0 0.625rem;
     }
 
     .main_component .folder_popup {
