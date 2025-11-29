@@ -1,4 +1,69 @@
 {
-  "hello": "こんにちは！",
-  "intro": "私のポートフォリオへようこそ"
+  "tech.stack": "技術スタック",
+  "publishing": "パブリッシング",
+  "frontend": "フロントエンド開発",
+  "site": "サイト",
+  "toy": "トイプロジェクト",
+  "video": "デモ動画",
+  "ppt": "説明用PPT",
+
+  "career": {
+    "ocube.company": "オキューブ株式会社",
+    "ocube.period": "2022.09 - 在職中",
+    "ocube.lats.role": "ウェブパブリッシングおよびフロントエンド開発・保守",
+
+    "nas.company": "NAS看護学院",
+    "nas.nurse": "NAS看護学院",
+    "nas.education": "NAS生涯教育院",
+
+    "joy.company": "ジョイカンパニー株式会社",
+    "joy.dasogot": "ダソゴッ農水産物サイト",
+    "joy.brave": "ブレイブマーケット"
+  },
+
+  "education": {
+    "title": "学歴および教育修了課程",
+    "korea": "コリアITアカデミー",
+    "korea.course": "バックエンド開発者養成コース修了",
+
+    "green": "グリーンコンピュータデザイン学院",
+    "green.course": "ウェブパブリッシャー国費コース修了",
+
+    "university": "中部大学",
+    "university.course": "ファッションデザイン学科 卒業"
+  },
+
+  "license": {
+    "title": "資格",
+    "jlpt": "日本語能力試験 JLPT N2",
+    "computer": "コンピュータ活用能力 2級",
+    "design": "ウェブデザイン技能士",
+    "graphics": "コンピュータグラフィックス運用技能士"
+  },
+
+  "project": {
+    "jlpt": "日本語能力試験 問題バンクサイト",
+    "jlpt.features1": "Googleログイン、Googleログアウト、Googleアカウント登録",
+    "jlpt.features2": "受験、問題提出、一時保存、解答の修正",
+    "jlpt.features3": "試験結果確認、再挑戦、間違えた問題のみ再挑戦",
+
+    "heeyoung": "ユク・ヒヨン紹介ページ",
+
+    "tving": "サブスクリプションサービスプラットフォーム",
+    "tving.description": "Netflix・TVINGのようなサブスクリプション型動画サービスサイト",
+    "tving.features1": "ログイン、ログアウト、会員登録",
+    "tving.features2": "サブスク商品決済、アップグレード、ダウングレード",
+    "tving.features3": "定期購読のキャンセル・再開",
+    "tving.features4": "現在および翌月の購読商品確認",
+    "tving.features5": "利用履歴照会",
+    "tving.features6": "お気に入り機能・お気に入りリスト照会",
+
+    "njs": "NewJeans 紹介ページ",
+
+    "hotel": "ホテル予約サイト",
+    "hotel.description": "新羅ホテル・Agodaのようなホテル予約サイト",
+
+    "chanel": "シャネル ショッピングサイト",
+    "chanel.description": "シャネル・バーバリーのようなブランドショッピングサイト"
+  }
 }

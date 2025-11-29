@@ -1,6 +1,4 @@
 {
-  "hello": "안녕하세요!",
-  "intro": "제 포트폴리오에 오신 것을 환영합니다",
   "tech.stack": "기술스택",
   "publishing": "퍼블리싱",
   "frontend": "프론트엔드 개발",
@@ -53,6 +51,6 @@
     "hotel": "호텔 예약 사이트",
     "hotel.description": "신라 호텔, 아고다같은 호텔 예약 웹 사이트 제작",
     "chanel": "샤넬 쇼핑몰 사이트",
-    "chanel.description": "샤넬, 버버리같은 쇼핑몰 사이트 웹 사이트 제작\n\n"
+    "chanel.description": "샤넬, 버버리같은 쇼핑몰 사이트 웹 사이트 제작"
   }
 }

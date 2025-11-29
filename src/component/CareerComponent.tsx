@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import React from 'react';
+import {useTranslation} from "react-i18next";
 
 
 interface CareerComponentProps {
@@ -8,6 +9,7 @@ interface CareerComponentProps {
 }
 
 const CareerComponent = ({ isOpen, setIsOpen }: CareerComponentProps) => {
+    const { t } = useTranslation();
     const handleShowPopup = (openNumber: any) => () => {
         return setIsOpen(openNumber);
     }
