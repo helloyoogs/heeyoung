@@ -31,13 +31,13 @@ const ToyProjectCard = ({ project }: ToyProjectCardProps) => {
         <div className="popup_content_box">
             <div className="popup_content_title_box">
                 <p className="popup_content_title">[ {t("toy")} ]</p>
-                <p className="popup_content_title">{title}</p>
+                <p className="popup_content_title">{t(title)}</p>
                 <p className="popup_content_title">{period}</p>
             </div>
 
             {subtitle && (
                 <div className="popup_content_text_box">
-                    <p className="popup_content_text">{subtitle}</p>
+                    <p className="popup_content_text">{t(subtitle)}</p>
                 </div>
             )}
 
@@ -100,7 +100,7 @@ const ToyProjectCard = ({ project }: ToyProjectCardProps) => {
                 <div className="popup_content_text_box">
                     <p className="popup_content_text">{t("features")} :</p>
                     {features.map((f, idx) => (
-                        <p key={idx} className="popup_content_text">- {f}</p>
+                        <p key={idx} className="popup_content_text">- {t(f)}</p>
                     ))}
                 </div>
             )}

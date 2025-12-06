@@ -1,5 +1,10 @@
 import {CareerItem, EducationItem, ToyProject} from "./type";
-import {useTranslation} from "react-i18next";
+import IG_JLPT from "../img/ig_jlpt.png";
+import IG_HEEYOUNG from "../img/ig_heeyoung.png";
+import IG_TVING from "../img/ig_tving.png";
+import IG_NEWJEANS from "../img/ig_newjeans.png";
+import IG_THE_SHILLA from "../img/ig_the_shilla.png";
+import IG_CHANEL from "../img/ig_chanel.png";
 
 export const CAREERS: CareerItem[] = [
     {
@@ -27,40 +32,40 @@ export const CAREERS: CareerItem[] = [
         ]
     },
     {
-        company: "나스(NAS)간호학원 (퍼블리셔)",
+        company: "career.nas.company",
         period: "2021.09 ~ 2022.01",
         projects: [
             {
-                title: "나스간호학원",
+                title: "career.nas.nurse",
                 period: "2021.11~2021.11",
                 tech: ["HTML", "CSS", "JavaScript"],
-                role: "퍼블리싱",
+                role: "publishing",
                 site: "https://nasnurse.com/"
             },
             {
-                title: "나스평생교육원",
+                title: "career.nas.education",
                 period: "2021.12~2022.12",
                 tech: ["HTML", "CSS", "JavaScript"],
-                role: "퍼블리싱",
+                role: "publishing",
                 site: "http://www.naslle.com/"
             }
         ]
     },
     {
-        company: "㈜조이컴퍼니 (퍼블리셔)",
+        company: "career.joy.company",
         period: "2021.06 ~ 2021.08",
         projects: [
             {
-                title: "다소곳 농수산물 사이트",
+                title: "career.joy.dasogot",
                 period: "2021.06~2021.07",
                 tech: ["HTML", "CSS", "JavaScript"],
-                role: "퍼블리싱"
+                role: "publishing"
             },
             {
-                title: "브레이브마켓",
+                title: "career.joy.brave",
                 period: "2021.07~2021.08",
                 tech: ["HTML", "CSS", "JavaScript"],
-                role: "퍼블리싱",
+                role: "publishing",
                 site: "https://bravemarket.co.kr/"
             }
         ]
@@ -69,58 +74,58 @@ export const CAREERS: CareerItem[] = [
 
 export const EDUCATIONS: EducationItem[] = [
     {
-        school: "코리아IT아카데미",
+        school: "education.korea",
         period: "2021.08 ~ 2022.04",
-        course: "백엔드 개발자 양성 과정 수료"
+        course: "education.korea.course"
     },
     {
-        school: "그린컴퓨터디자인학원",
+        school: "education.green",
         period: "2020.03 ~ 2020.07",
-        course: "웹 퍼블리셔 국비 과정 수료"
+        course: "education.green.course"
     },
     {
-        school: "중부대학교",
+        school: "education.university",
         period: "2012.03 ~ 2017.07",
-        course: "패션디자인과 졸업"
+        course: "education.university.course"
     }
 ];
 
 export const LICENSES: string[] = [
-    "일본어능력시험(JLPT)2급",
-    "컴퓨터활용능력2급",
-    "웹디자인기능사",
-    "컴퓨터그래픽스운용기능사"
+    "license.jlpt",
+    "license.computer",
+    "license.design",
+    "license.graphics",
 ];
 
 export const TOY_PROJECTS: ToyProject[] = [
     {
-        title: "일본어 능력 시험 문제은행 사이트",
+        title: "project.jlpt",
         period: "2024.04.01 ~ 2024.04.20",
         techFront: "React, TypeScript, Next.js",
         techBack: "MongoDB",
         site: "https://jlptn1.vercel.app/",
         github: "https://github.com/helloyoogs/jlptn1",
         features: [
-            "구글 로그인, 구글 로그아웃, 구글 회원가입",
-            "응시하기, 문제 제출 하기, 문제 임시 저장하기, 푼 문제 수정하기",
-            "시험 결과 확인하기, 문제 다시풀기, 틀린 문제 풀기"
+            "project.jlpt.features1",
+            "project.jlpt.features2",
+            "project.jlpt.features3",
         ],
-        imageSrc: "/heeyoung/static/media/jlpt.9267dc4fb4aa225fad3a.png",
+        imageSrc: IG_JLPT,
         imageAlt: "jlpt"
     },
     {
-        title: "육희영 소개 페이지",
+        title: "project.heeyoung",
         period: "2023.05.01 ~ 2023.05.09",
         techFront: "React, TypeScript",
         site: "https://helloyoogs.github.io/heeyoung/",
         github: "https://github.com/helloyoogs/heeyoung",
-        imageSrc: "/heeyoung/static/media/heeyoung.7161e023142dc9a96411.png",
+        imageSrc: IG_HEEYOUNG,
         imageAlt: "heeyoung"
     },
     {
-        title: "구독 서비스 플랫폼",
+        title: "project.tving",
         period: "2023.04.01 ~ 2023.05.01",
-        subtitle: "넷플릭스,티빙같은 구독 플랫폼 웹 사이트 제작",
+        subtitle: "project.tving.description",
         techFront: "React, TypeScript",
         techBack:
             "Spring Boot, Java, JPA, Spring Security, JWT, RESTful API",
@@ -129,46 +134,46 @@ export const TOY_PROJECTS: ToyProject[] = [
         githubFront: "https://github.com/helloyoogs/tving_front",
         githubBack: "https://github.com/helloyoogs/tving_back",
         features: [
-            "로그인, 로그아웃, 회원가입",
-            "구독 상품 결제, 업그레이드, 다운그레이드",
-            "구독 및 정기 결제 취소 및 재시작",
-            "구독 상품 및 다음 달 구독 상품 조회",
-            "이용 내역 조회",
-            "찜기능, 찜한 내역 조회"
+            "project.tving.features1",
+            "project.tving.features2",
+            "project.tving.features3",
+            "project.tving.features4",
+            "project.tving.features5",
+            "project.tving.features6",
         ],
-        imageSrc: "/heeyoung/static/media/tving.d472f5f53bc59ad31084.png",
+        imageSrc: IG_TVING,
         imageAlt: "tving"
     },
     {
-        title: "가수 뉴진스 소개 페이지",
+        title: "project.njs",
         period: "2022.07.01 ~ 2022.08.01",
         techFront: "Vue",
         site: "https://helloyoogs.github.io/newjeans/#/",
         github: "https://github.com/helloyoogs/newjeans",
-        imageSrc: "/heeyoung/static/media/newjeans.1c0de5f588ef3d4c2593.png",
+        imageSrc: IG_NEWJEANS,
         imageAlt: "newjeans"
     },
     {
-        title: "호텔 예약 사이트",
+        title: "project.hotel",
         period: "2022.04.05 ~ 2022.04.20",
-        subtitle: "신라 호텔, 아고다같은 호텔 예약 웹 사이트 제작",
+        subtitle: "project.hotel.description",
         techFront: "HTML, CSS, JavaScript",
         techBack:
             "Spring Boot, Java, MyBatis, RESTful API, JSP",
         ppt: "/etc/hotel_reservation.pptx",
         github: "https://github.com/helloyoogs/shilla_all",
-        imageSrc: "/heeyoung/static/media/the_shilla.1804124324ae7f6e8bb1.png",
-        imageAlt: "the_shilla"
+        imageSrc:IG_THE_SHILLA,
+        imageAlt: "the shilla"
     },
     {
-        title: "샤넬 쇼핑몰 사이트",
+        title: "project.chanel",
         period: "2022.03.20 ~ 2022.04.05",
-        subtitle: "샤넬, 버버리같은 쇼핑몰 사이트 웹 사이트 제작",
+        subtitle: "project.chanel.description",
         techFront: "HTML, CSS, JavaScript, jQuery, Ajax",
         techBack: "Java, MyBatis, JSP",
         ppt: "/etc/shopping_mall.pptx",
         github: "https://github.com/helloyoogs/chanel",
-        imageSrc: "/heeyoung/static/media/chanel.98835d062975366dfbb6.png",
+        imageSrc: IG_CHANEL,
         imageAlt: "chanel"
     }
 ];

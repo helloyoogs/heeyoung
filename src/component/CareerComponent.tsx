@@ -20,20 +20,20 @@ const CareerComponent = ({ isOpen, setIsOpen }: CareerComponentProps) => {
             {CAREERS.map((c, i) => (
                     <div key={i} className="popup_content_box">
                         <div className="popup_content_title_box">
-                            <p className="popup_content_title">[ {c.company ? t(c.company) : c.company} ]</p>
+                            <p className="popup_content_title">[ {t(c.company)} ]</p>
                             <p className="popup_content_title">{c.period}</p>
                         </div>
 
                         {c.projects.map((p, idx) => (
                             <div key={idx} className="popup_content_text_box">
                                 <p className="popup_content_text">
-                                    {idx + 1}. {p.title}
-                                    {p.period ? ` (${t(p.period)})` : ""}
+                                    {idx + 1}. {t(p.title)}
+                                    ({t(p.period)})
                                 </p>
                                 <p className="popup_content_text">
                                     - {t("tech.stack")} : {p.tech.join(", ")}
                                 </p>
-                                <p className="popup_content_text">- {p.role ? t(p.role) : p.role}</p>
+                                <p className="popup_content_text">- {t(p.role)}</p>
                                 {p.site && (
                                     <p className="popup_content_text">
                                         - {t("site")} :{" "}
@@ -53,14 +53,14 @@ const CareerComponent = ({ isOpen, setIsOpen }: CareerComponentProps) => {
         return (
             <div className="popup_content_box">
                 <div className="popup_content_title_box">
-                    <p className="popup_content_title">[ 학력 및 교육 수료 과정 ]</p>
+                    <p className="popup_content_title">[ {t('education.title')} ]</p>
                 </div>
                 {EDUCATIONS.map((edu, i) => (
                     <div key={i} className="popup_content_text_box">
                         <p className="popup_content_text">
-                            {edu.school} ({edu.period})
+                            {t(edu.school)} ({edu.period})
                         </p>
-                        <p className="popup_content_text">- {edu.course}</p>
+                        <p className="popup_content_text">- {t(edu.course)}</p>
                     </div>
                 ))}
             </div>
@@ -70,13 +70,13 @@ const CareerComponent = ({ isOpen, setIsOpen }: CareerComponentProps) => {
         return (
             <div className="popup_content_box">
                 <div className="popup_content_title_box">
-                    <p className="popup_content_title">[ 자격증 ]</p>
+                    <p className="popup_content_title">[ {t('license.title')} ]</p>
                 </div>
 
                 <div className="popup_content_text_box">
                     {LICENSES.map((license, i) => (
                         <p key={i} className="popup_content_text">
-                            - {license}
+                            - {t(license)}
                         </p>
                     ))}
                 </div>
