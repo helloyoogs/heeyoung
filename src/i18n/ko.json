@@ -9,9 +9,7 @@
   "features": "구현 기능",
   "career": {
     "ocube.company": "오큐브㈜",
-    "ocube.period": "2022.09 - 재직중",
-    "ocube.lats.role": "2022.09 - 재직중",
-    "ocube.lats.period": "2022.09 ~ 현재",
+    "ocube.lats.role": "웹 퍼블리싱 및 프론트엔드 개발·유지보수",
     "nas.company": "나스(NAS)간호학원",
     "nas.nurse": "나스간호학원",
     "nas.education": "나스평생교육원",
@@ -22,14 +20,15 @@
   "education": {
     "title": "학력 및 교육 수료 과정",
     "korea": "코리아IT아카데미",
-    "korea.course": "백엔드 개발자 양성 과정 수료",
+    "korea.course": "백엔드 개발자 양성 과정 수료 (java, spring, dbms)",
     "green": "그린컴퓨터디자인학원",
-    "green.course": "웹 퍼블리셔 국비 과정 수료",
+    "green.course": "웹 퍼블리셔 국비 과정 수료 (html, css, jquery, javascript)",
     "university": "중부대학교",
     "university.course": "패션디자인과 졸업"
   },
   "license": {
     "title": "자격증",
+    "information.processing": "정보처리기사 필기 합격",
     "jlpt": "일본어능력시험(JLPT)2급",
     "computer": "컴퓨터활용능력2급",
     "design": "웹디자인기능사",

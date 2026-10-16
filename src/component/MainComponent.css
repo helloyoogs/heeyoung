@@ -146,7 +146,6 @@
     flex-direction: column;
     gap: 2rem;
     overflow-y: auto;
-
 }
 
 .main_component .popup_content_wrap ::-webkit-scrollbar {

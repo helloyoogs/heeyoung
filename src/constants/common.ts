@@ -1,4 +1,4 @@
-import {CareerItem, EducationItem, ToyProject} from "./type";
+import { CareerItem, EducationItem, ToyProject } from "./type";
 import IG_JLPT from "../img/ig_jlpt.png";
 import IG_HEEYOUNG from "../img/ig_heeyoung.png";
 import IG_TVING from "../img/ig_tving.png";
@@ -9,13 +9,15 @@ import IG_CHANEL from "../img/ig_chanel.png";
 export const CAREERS: CareerItem[] = [
     {
         company: "career.ocube.company",
-        period: "2022.09 ~",
+        period: "2022.09 ~ 2025.12",
         projects: [
             {
                 title: "LG LATS",
-                period: "career.ocube.lats.period",
+                period: "2022.09 ~ 2025.12",
                 tech: ["HTML", "CSS", "JavaScript", "DataTable", "Next.js", "React", "TypeScript", "Tailwind CSS"],
-                role: "career.ocube.lats.role"
+                role: "career.ocube.lats.role",
+                site: "https://www.lg.com/global/business/support/resource-download/hvac/tools-and-software/"
+
             },
             {
                 title: "LG thinkQ App Petcare",
@@ -27,7 +29,9 @@ export const CAREERS: CareerItem[] = [
                 title: "LG Super Sign Cloud",
                 period: "2024.07~2025.08",
                 tech: ["React", "TypeScript"],
-                role: "frontend"
+                role: "frontend",
+                site: "https://www.youtube.com/watch?v=g0D1RPlKGJA&source_ve_path=OTY3MTQ&embeds_referring_euri=https%3A%2F%2Fwww.lg.com%2F"
+
             },
         ]
     },
@@ -91,10 +95,11 @@ export const EDUCATIONS: EducationItem[] = [
 ];
 
 export const LICENSES: string[] = [
+    "license.information.processing",
     "license.jlpt",
     "license.computer",
     "license.design",
-    "license.graphics",
+    "license.graphics"
 ];
 
 export const TOY_PROJECTS: ToyProject[] = [
@@ -104,7 +109,7 @@ export const TOY_PROJECTS: ToyProject[] = [
         techFront: "React, TypeScript, Next.js",
         techBack: "MongoDB",
         site: "https://jlptn1.vercel.app/",
-        github: "https://github.com/helloyoogs/jlptn1",
+        // github: "https://github.com/helloyoogs/jlptn1",
         features: [
             "project.jlpt.features1",
             "project.jlpt.features2",
@@ -131,8 +136,8 @@ export const TOY_PROJECTS: ToyProject[] = [
             "Spring Boot, Java, JPA, Spring Security, JWT, RESTful API",
         techEtc: "Redis",
         video: "https://youtu.be/pCAG_vlBPzI",
-        githubFront: "https://github.com/helloyoogs/tving_front",
-        githubBack: "https://github.com/helloyoogs/tving_back",
+        // githubFront: "https://github.com/helloyoogs/tving_front",
+        // githubBack: "https://github.com/helloyoogs/tving_back",
         features: [
             "project.tving.features1",
             "project.tving.features2",
@@ -148,7 +153,7 @@ export const TOY_PROJECTS: ToyProject[] = [
         title: "project.njs",
         period: "2022.07.01 ~ 2022.08.01",
         techFront: "Vue",
-        site: "https://helloyoogs.github.io/newjeans/#/",
+        // site: "https://helloyoogs.github.io/newjeans/#/",
         github: "https://github.com/helloyoogs/newjeans",
         imageSrc: IG_NEWJEANS,
         imageAlt: "newjeans"
@@ -161,8 +166,8 @@ export const TOY_PROJECTS: ToyProject[] = [
         techBack:
             "Spring Boot, Java, MyBatis, RESTful API, JSP",
         ppt: "/etc/hotel_reservation.pptx",
-        github: "https://github.com/helloyoogs/shilla_all",
-        imageSrc:IG_THE_SHILLA,
+        github: "https://github.com/helloyoogs/theshilla_hy_jh",
+        imageSrc: IG_THE_SHILLA,
         imageAlt: "the shilla"
     },
     {
@@ -172,7 +177,7 @@ export const TOY_PROJECTS: ToyProject[] = [
         techFront: "HTML, CSS, JavaScript, jQuery, Ajax",
         techBack: "Java, MyBatis, JSP",
         ppt: "/etc/shopping_mall.pptx",
-        github: "https://github.com/helloyoogs/chanel",
+        // github: "https://github.com/helloyoogs/chanel",
         imageSrc: IG_CHANEL,
         imageAlt: "chanel"
     }
